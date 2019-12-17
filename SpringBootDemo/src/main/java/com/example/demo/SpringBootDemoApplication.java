@@ -12,12 +12,12 @@ public class SpringBootDemoApplication {
 	@RequestMapping("/")
 	String home()
 	{
-		return "Hello Ck, It's Spring Boot Test  33333";
+		return "Hello Ck, It's Spring Boot Test  4444";
 	}
 	@RequestMapping("/another")
 	String another()
 	{
-		return "Another Page Mapping 333333";
+		return "Another Page Mapping 4444";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootDemoApplication.class, args);
